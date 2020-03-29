@@ -1,0 +1,54 @@
+
+-************************************************************************************-
+
+    /**
+    * Métodos HTTP
+    * 
+    * GET: Buscar informações do back-end;
+    * POST: Criar uma informaça no back-end;
+    * PUT: Alterar uma informação no back-end;
+    * DELETE: Deletar uma informação no back-end;
+    */
+
+    /**
+    * Tipos de parâmetros:
+    * 
+    * Query Params: Parâmetros nomeadors enviados na roda após o "?" (filtros,paginação);
+    * Route Params: Parâmetros utilizados para identificar recursos(/:id);
+    * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos; 
+    */
+
+    /**
+    * SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server;
+    * NoSQL: MongoDB, CouchDB, etc;
+    */
+
+    /**
+    * Driver: SELECT * FROM user;
+    * Query Builder: table('users').select('*').where();
+    * 
+    */
+
+-************************************************************************************-
+
+
+  Guardar códigos
+    /*
+    const params = request.params;
+    console.log(params);
+    */
+
+    /*
+    const body = request.body;
+    console.log(body);
+    */
+
+React JS
+-************************************************************************************-
+
+  //const [count, setCount] = useState(0);
+
+  /**
+   * useState
+   * array = [valor, funcaoDeAtualizacao]
+   */
